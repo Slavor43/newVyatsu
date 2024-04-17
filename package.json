@@ -1,5 +1,8 @@
 {
   "name": "Vyatsu frontend",
+  "homepage": "https://lslavor.github.io/newVyatsu/",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "private": true,
   "version": "0.0.0",
   "type": "module",
