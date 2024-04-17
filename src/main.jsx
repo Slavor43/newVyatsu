@@ -6,10 +6,9 @@ import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="/newVyatsu">
+    <BrowserRouter basename="/newVyatsu/">
       <Routes>
-        <Route path="/" element={<App />} />
-        {/* Добавьте другие маршруты здесь, если необходимо */}
+        <Route exact path="/" element={<App />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
