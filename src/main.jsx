@@ -6,7 +6,7 @@ import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename={process.env.NODE_ENV === 'production' ? '/ArtfulSpaces' : '/'}>
+    <BrowserRouter basename={process.env.NODE_ENV === 'production' ? '/newVyatsu' : '/'}>
       <Routes>
         <Route exact path="/" element={<App />} />
       </Routes>
